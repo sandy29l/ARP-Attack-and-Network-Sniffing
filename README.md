@@ -1,3 +1,5 @@
+## Reg No:212222100046
+
 # ARP-Attack-and-Network-Sniffing
 # Explore Network Sniffing and ARP Attacks
 
@@ -25,10 +27,14 @@ Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
 
+![Screenshot (250)](https://github.com/user-attachments/assets/051a38db-5bf1-460b-bbdc-98dcd30de917)
 
-From kali linux issue the command :
+
+From parrot security issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/54c5e341-cec9-47c0-b784-b9c2e66a2934)
 
 
  dsniff:
@@ -41,17 +47,22 @@ sudo arpspoof -i eth0 -t <target system> <gateway>
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/4990e795-4a95-41f5-a1f8-a4d872ab80c3)
 
 
 
-In Kali issue the following commands:
-sudo dsnifff
+In Parrot issue the following commands:
+sudo dsniff
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/e536adc8-e777-4638-a4ad-aed6bd249e4c)
 
 
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
 
+![Screenshot 2024-10-07 143936](https://github.com/user-attachments/assets/159d328e-188d-480f-9c6c-a8593e8dfb7f)
+
 
 ## RESULT:
-The kali linux tools for ARP Attack and Network Sniffing were identified successfully
+The parrot security tools for ARP Attack and Network Sniffing were identified successfully
